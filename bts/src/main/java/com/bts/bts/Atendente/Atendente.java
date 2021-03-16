@@ -1,4 +1,4 @@
-package com.bts.bts.atendente;
+package com.bts.bts.Atendente;
 
 import lombok.Getter;
 import lombok.Setter;
