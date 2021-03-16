@@ -17,5 +17,4 @@ public class Atendente {
     private Long idAtendente;
     private String nome;
     private String senha;
-
 }
