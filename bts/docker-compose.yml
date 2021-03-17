@@ -1,0 +1,11 @@
+version: '2'
+services:
+  db:
+    image: postgres:9.4
+    environment:
+      - POSTGRES_PASSWORD=123db
+      - POSTGRES_USER=root
+      - POSTGRES_DB=bookSystemDB
+    ports:
+      - 5432:5432
+    container_name: bookSystem
